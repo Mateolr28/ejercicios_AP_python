@@ -1,3 +1,7 @@
+'''A un grupo de hombres y mujeres les realizan una prueba de conocimientos. Se 
+desea conocer cuántas mujeres y cuántos hombres presentaron la prueba y el total 
+de personas que se procesaron. '''
+
 hombres = 0
 mujeres = 0
 
@@ -12,8 +16,8 @@ while contador < total_personas:
         mujeres += 1
     else:
         print("Entrada no válida, intente nuevamente.")
-        continue  # Repite la iteración sin aumentar el contador
+        continue  
     
-    contador += 1  # Solo aumenta el contador si la entrada es válida
+    contador += 1  
 
 print(f"Total de hombres: {hombres}, Total de mujeres: {mujeres}, Total de personas: {total_personas}")
